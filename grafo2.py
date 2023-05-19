@@ -23,9 +23,9 @@ def create_graph():
     graph = {
         "Ana": {"Fabian": 5, "Carol": 1, "David": 6, "Laura":4},
         "Fabian": {"Ana": 5, "Carol": 3, "David": 2},
-        "Carol": {"David": 4, "Fabian": 3, "Ana": 4, "Alejo": 3},
-        "David": {"Alejo": 8, "Fabian": 9, "Carol": 7},
-        "Alejo": {"Ana": 2, "Carol": 1, "David": 3, "Alejo": 9},
+        "Carol": {"David": 4, "Fabian": 3, "Ana": 1, "Alejo": 3},
+        "David": {"Alejo": 8, "Fabian": 2, "Carol": 4},
+        "Alejo": {"Ana": 2, "Carol": 1, "David": 8},
         "Juan": {"Ana": 5, "Fabian": 3, "Carol": 4, "David": 5, "Alejo": 7},
         "Laura": {"Fabian": 6, "Carol": 2, "David": 4},
         "Saul": {"Juan": 7, "Laura": 3}
